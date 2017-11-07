@@ -92,7 +92,7 @@ CTX::CTX() : gamepad(0)
   mesh.numSubEdges = 0;
   mesh.colorCarousel = 0;
   mesh.ignorePartBound = 0;
-  mesh.saveTri = 0;
+  mesh.saveTri = mesh.saveTopology = 0;
   color.mesh.tangents = color.mesh.tetrahedron = color.mesh.triangle = 0;
   color.mesh.prism = color.mesh.pyramid = color.mesh.hexahedron = color.mesh.trihedron = 0;
   color.mesh.tangents = color.mesh.line = color.mesh.quadrangle = 0;
